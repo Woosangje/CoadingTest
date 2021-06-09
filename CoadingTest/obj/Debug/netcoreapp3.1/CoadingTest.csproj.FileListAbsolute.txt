@@ -1,0 +1,13 @@
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\obj\Debug\netcoreapp3.1\CoadingTest.csprojAssemblyReference.cache
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\obj\Debug\netcoreapp3.1\CoadingTest.AssemblyInfoInputs.cache
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\obj\Debug\netcoreapp3.1\CoadingTest.AssemblyInfo.cs
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\obj\Debug\netcoreapp3.1\CoadingTest.csproj.CoreCompileInputs.cache
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\bin\Debug\netcoreapp3.1\CoadingTest.exe
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\bin\Debug\netcoreapp3.1\CoadingTest.deps.json
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\bin\Debug\netcoreapp3.1\CoadingTest.runtimeconfig.json
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\bin\Debug\netcoreapp3.1\CoadingTest.runtimeconfig.dev.json
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\bin\Debug\netcoreapp3.1\CoadingTest.dll
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\bin\Debug\netcoreapp3.1\CoadingTest.pdb
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\obj\Debug\netcoreapp3.1\CoadingTest.dll
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\obj\Debug\netcoreapp3.1\CoadingTest.pdb
+C:\Users\dnedr\Desktop\githurb\CoadingTest\CoadingTest\obj\Debug\netcoreapp3.1\CoadingTest.genruntimeconfig.cache
