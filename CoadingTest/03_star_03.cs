@@ -7,7 +7,7 @@ namespace CoadingTest
 {
     //5x5직각삼각형 별찍기-2
     //https://coding-factory.tistory.com/383 참조
-    /*class MainApp
+   /*class MainApp
     {
         static void Main(string[] args)
         {
@@ -20,5 +20,5 @@ namespace CoadingTest
                 Console.WriteLine("");
             }
         }
-    }   */ 
+    }*/
 }
