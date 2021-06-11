@@ -1,24 +1,30 @@
 ﻿using System;
-using System.Text;
-using System.Collections;
 using System.Collections.Generic;
+using System.Collections;
+using System.Text;
 
 namespace CoadingTest
 {
-    //5x5직각삼각형 별찍기-2
-    //https://coding-factory.tistory.com/383 참조
     /*class MainApp
     {
         static void Main(string[] args)
         {
-            for(int i=0; i<5; i++)
+            int num = 5;
+            for(int i=0; i<num; i++)
             {
-                for(int j=0; j<5-i; j++)
+                for(int j=0; j<i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for(int j=2*num-1; j > 2 * i; j--)
                 {
                     Console.Write("*");
                 }
+
                 Console.WriteLine("");
             }
         }
     }*/
+
+  
 }
