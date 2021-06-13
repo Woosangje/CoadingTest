@@ -9,36 +9,31 @@ namespace CoadingTest
     {
         static void Main(string[] args)
         {
-            int num = 5;
-            for(int i=0; i<num; i++)
+            int start = 0, end = 10;
+            for(int i=0; i < 9; i++)
             {
-                for(int j=num-1; j>i; j--)
+                if(i < 10 / 2)
+                {
+                    start = i;
+                    end--;
+                }
+                else
+                {
+                    start--;
+                    end++;
+                }
+
+                for(int j = start; j>0; j--)
                 {
                     Console.Write(" ");
                 }
-
-                for(int j=0; j<2*i+1; j++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine("");
-            }
-
-            for(int i=1; i<num; i++)
-            {
-                for(int j=0; j<i; j++)
-                {
-                    Console.Write(" ");
-                }
-
-                for(int j=2*num-1; j>2*i; j--)
+                for(int j = start; j < end; j++)
                 {
                     Console.Write("*");
                 }
                 Console.WriteLine("");
             }
         }
-
-    }*/
-
+    }
+    */
 }
