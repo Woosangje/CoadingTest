@@ -5,14 +5,15 @@ using System.Text;
 
 namespace CoadingTest
 {
-    /*class MainApp
+    /*
+    class MainApp
     {
         static void Main(string[] args)
         {
             int start = 0, end = 10;
-            for(int i=0; i < 9; i++)
+            for(int i=0; i<9; i++)
             {
-                if(i < 10 / 2)
+                if (i < 10 / 2)
                 {
                     start = i;
                     end--;
@@ -23,16 +24,17 @@ namespace CoadingTest
                     end++;
                 }
 
-                for(int j = start; j>0; j--)
+                for(int j= start; j>0; j--)
                 {
                     Console.Write(" ");
                 }
-                for(int j = start; j < end; j++)
+                for(int j=start; j < end; j++)
                 {
                     Console.Write("*");
                 }
                 Console.WriteLine("");
             }
+
         }
     }
     */

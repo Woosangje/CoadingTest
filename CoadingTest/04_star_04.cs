@@ -7,7 +7,7 @@ namespace CoadingTest
 {
     //5x5 피라미드 만들기 별찍기-1
     //https://coding-factory.tistory.com/383 참조
-    /**/class MainApp
+    /*class MainApp
     {
         static void Main(string[] args)
         {
@@ -25,6 +25,6 @@ namespace CoadingTest
                 Console.WriteLine("");
             }
         }
-    }
-  
+    }*/
+
 }
