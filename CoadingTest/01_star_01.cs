@@ -8,10 +8,9 @@ namespace CoadingTest
     //5x5사각형 별찍기
     //https://coding-factory.tistory.com/383 참조
     //1
-
     /*
-  class MainApp
-   {
+    class MainApp
+    {
        static void Main(string[] args)
        {
            for(int i=0; i<5; i++)
@@ -24,6 +23,6 @@ namespace CoadingTest
            }
            Console.WriteLine("");
        }
-   }
-  */
+    }
+    */
 }
