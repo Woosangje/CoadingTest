@@ -5,6 +5,7 @@ using System.Text;
 
 namespace CoadingTest
 {//5x5 피라미드 만들기 별찍기-2
+
     /*  class MainApp
    {
        static void Main(string[] args)
