@@ -7,7 +7,7 @@ namespace CoadingTest
 {
 
 
-    public class Solution
+   /* public class Solution
     {
         public int[] solution(int[] lottos, int[] win_nums)
         {
@@ -38,5 +38,5 @@ namespace CoadingTest
 
             return answer;
         }
-    }
+    }*/
 }
