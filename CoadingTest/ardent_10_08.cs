@@ -1,16 +1,15 @@
 ﻿using System;
 using static System.Console;
 
-namespace ardent_10_07
+namespace ardent_10_08
 {
     //도전 6
 
-    /*
-     class MainApp
+   class MainApp
      {
          static void Main(string[] args)
          {
-             WriteLine("숫자입력");
+             WriteLine("정수 입력");
              string input = ReadLine();
              int n = int.Parse(input);
              int k = 0;//최댓값
@@ -21,11 +20,11 @@ namespace ardent_10_07
                      k = i;
                  }
              }
-             WriteLine("최댓값 {0}", k);
+             WriteLine("2의 {0}승은 {1}", n, k );
 
          }
 
-     }*/
+     }
 }
 
 
