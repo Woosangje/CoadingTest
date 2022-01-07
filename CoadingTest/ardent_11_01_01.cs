@@ -1,11 +1,10 @@
 ﻿using System;
 using static System.Console;
 
-namespace ardent_10_08
+namespace ardent_11_01_01
 {
     //도전 6
-    //2를 n횟수만큼곱하는것
-
+   /*
     class MainApp
     {
         static void Main(string[] args)
@@ -18,42 +17,38 @@ namespace ardent_10_08
                 input[i] = ReadLine();
                 number[i] = int.Parse(input[i]);
             }
-            Max(number);
-            Min(number);
-        }
-        static void Max(int[] a)
-        {
 
-            int result = a[0];
-            for (int i = 0; i < 5; i++)
-            {
-                if(a[i]<a[i+1] || result < a[i+1])
-                {
-                    result = a[i + 1];
-                }
-                
-                
-
-            }
-            WriteLine("최댓값 {0}", result);
+            MaxValue(number);
+            MinValue(number);
         }
-        static void Min(int[] a)
+
+        static void MaxValue(int[] a)
         {
-            int result = a[0];
-            for(int i=0; i < 5; i++)
+            int result =  a[0];
+            for(int i=0; i<5; i++)
             {
-                if(a[i]>a[i+1] || result > a[i+1])
+                if(a[i]>result)
                 {
-                    result = a[i+1];
+                    result = a[i];
                 }
             }
-            WriteLine("최솟값 {0}", result);
+            WriteLine("최댓값" + result);
+        }
+        static void MinValue(int[] a)
+        {
+            int result = a[0];
+            for(int i=0; i<5; i++)
+            {
+                if(a[i]<result)
+                {
+                    result = a[i];
+                }
+            }
+            WriteLine("최소값" + result);
         }
 
 
-
-
-    }
+    }*/
 }
 
 
