@@ -10,28 +10,27 @@ namespace CoadingTest
        ***
         *
  */
-
     /*
-     class MainApp
+ class MainApp
+ {
+     static void Main(string[] args)
      {
-         static void Main(string[] args)
+         int num = 5;
+         for (int i = 0; i < num; i++)
          {
-             int num = 5;
-             for (int i = 0; i < num; i++)
+             for (int j = 0; j < i; j++)
              {
-                 for (int j = 0; j < i; j++)
-                 {
-                     Console.Write(" ");
-                 }
-                 for (int j = 2 * num - 1; j > 2 * i; j--)
-                 {
-                     Console.Write("*");
-                 }
-                 Console.WriteLine("");
+                 Console.Write(" ");
+             }
+             for (int j = 2 * num - 1; j > 2 * i; j--)
+             {
+                 Console.Write("*");
              }
              Console.WriteLine("");
          }
+         Console.WriteLine("");
      }
-  */
+ }
+*/
 }
 

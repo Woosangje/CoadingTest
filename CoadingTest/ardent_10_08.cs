@@ -22,9 +22,6 @@ namespace ardent_10_08
 
         static void Recursive(int num, int num2)
         {
-            
-           
-         
             if(num>0)
             {
                 num2 = num2 * 2;

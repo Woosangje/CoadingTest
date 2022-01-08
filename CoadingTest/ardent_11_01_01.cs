@@ -3,52 +3,56 @@ using static System.Console;
 
 namespace ardent_11_01_01
 {
-    //도전 6
+   
    /*
     class MainApp
     {
         static void Main(string[] args)
         {
-            string[] input = new string[5];
-            int[] number = new int[5];
-            WriteLine("5개의 정수 입력");
-            for (int i = 0; i < 5; i++)
+            WriteLine("5개 정수 입력");
+            string[] input=new string[5] {"","","","","" };
+            int[] numbers = new int[5] { 0,0,0,0,0};
+            for(int i=0; i < 5; i++)
             {
                 input[i] = ReadLine();
-                number[i] = int.Parse(input[i]);
+                numbers[i] = int.Parse(input[i]);
             }
 
-            MaxValue(number);
-            MinValue(number);
-        }
+            MaxValue(numbers);
+            MinValue(numbers);
 
+        }
         static void MaxValue(int[] a)
         {
-            int result =  a[0];
-            for(int i=0; i<5; i++)
+            int result = a[0];
+            for(int i=1; i<5; i++)
             {
-                if(a[i]>result)
+                if (result < a[i])
                 {
                     result = a[i];
                 }
             }
             WriteLine("최댓값" + result);
+
         }
+
         static void MinValue(int[] a)
         {
             int result = a[0];
-            for(int i=0; i<5; i++)
+            for (int i = 1; i < 5; i++)
             {
-                if(a[i]<result)
+                if (result > a[i])
                 {
                     result = a[i];
                 }
             }
-            WriteLine("최소값" + result);
+            WriteLine("최솟값" + result);
         }
 
+       
 
-    }*/
+    }
+   */
 }
 
 
