@@ -12,22 +12,21 @@ namespace CoadingTest
      *****
      */
 
-
     /*class MainApp
-   {
-       static void Main(string[] args)
        {
-           for (int i = 0; i < 5; i++)
+           static void Main(string[] args)
            {
-               for(int j=0; j<i+1; j++)
+               for (int i = 0; i < 5; i++)
                {
-                   Console.Write("*");
+                   for(int j=0; j<i+1; j++)
+                   {
+                       Console.Write("*");
+                   }
+                   Console.WriteLine("");
                }
-               Console.WriteLine("");
            }
        }
-   }
-   */
+       */
 
 
 }

@@ -99,18 +99,18 @@ Chapter11 260p
 
 단, 반드시 입력을 완료한 상태에서 '최댓값'과 '최솟값' 그리고 '총 합'을 계산해야 한다.
 
+//array = Enumerable.Repeat('S', 1000).ToArray(); // 배열의 값을 'S'로 초기화
+
 
 문제 2
 char형 1차원 배열을 선언과 동시에 다음 문장의 내용으로 초기화하고, 초기화 이후에는 저장된
 내용을 출력하는 예제를 작성해보자.
 	"Good time"
 
-11-2 268p
+11-02    268p
 문제 1
 프로그램 사용자로부터 하나의 영단어를 입력 받아서 입력 받은 영단어의 길이를 계산하여 출력하는
 프로그램을 작성해보자. 예를 들어서 "Array"라는 단어가 입력되면 5가 출력되어야 한다.
- int txtlength = textBox1.Text.Length;
-int txtlength = textBox1.Text.Trim().Length;//공백제거
 
 
 문제 2
