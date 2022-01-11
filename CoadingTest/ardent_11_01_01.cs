@@ -1,57 +1,70 @@
 ﻿using System;
 using static System.Console;
 using System.Linq;
+
 namespace ardent_11_01_01
 {
-
+    //11-1
     /*
     class MainApp
     {
         static void Main(string[] args)
         {
-            WriteLine("5개의 정수 입력");
+            WriteLine("정수 5개 입력");
             string[] input = Enumerable.Repeat(" ", 5).ToArray();
-
             int[] number = Enumerable.Repeat(0, 5).ToArray();
-            for (int i=0; i<5; i++)
+
+            for(int i=0; i<5; i++)
             {
                 input[i] = ReadLine();
                 number[i] = int.Parse(input[i]);
             }
-            WriteLine("최댓값: {0}",Max(number));
-            WriteLine("최솟값: {0}", Min(number));
 
-            
+            WriteLine("입력된 정수 중에서 최댓값" + Max(number));
+            WriteLine("입력된 정수 중에서 최솟값" + Min(number));
+            WriteLine("입력된 정수의 총 합" + Total(number));
+
         }
+
         static int Max(int[] a)
         {
-            int max = a[0];
-            for(int i=0; i<a.Length-1; i++)
+            int result = a[0];
+            for(int i=0; i<a.Length; i++)
             {
-                if(a[i]<a[i+1])
+                if(result<a[i])
                 {
-                    max = a[i + 1];
+                    result = a[i];
                 }
-                
             }
-            return max;
+            return result;
         }
         static int Min(int[] a)
         {
-            int min = a[0];
-            for(int i=0; i<a.Length-1; i++)
+            int result = a[0];
+            for(int i=0; i<a.Length; i++)
             {
-                if(a[i]>a[i+1])
+                if(result>a[i])
                 {
-                    min = a[i + 1];
+                    result = a[i];
                 }
             }
-            return min;
+            return result;
+        }
+        static int Total(int[] a)
+        {
+            int result = 0;
+            for(int i=0; i<a.Length; i++)
+            {
+                result += a[i];
+            }
+            return result;
         }
 
+        
 
-    }*/
 
+    }
+    */
 }
 
 

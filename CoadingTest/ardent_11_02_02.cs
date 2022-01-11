@@ -10,8 +10,8 @@ namespace ardent_11_01_02
          static void Main(string[] args)
          {
              WriteLine("영단어 입력");
-             char[] s = Console.ReadLine().ToCharArray();
-             char[] result= new char[] { ' ',' ',' ',' ',' ' };
+            char[] s = Console.ReadLine().ToCharArray();
+            char[] result = Enumerable.Repeat(' ', s.Length).ToArray();
              string answer ="";
 
 
@@ -22,7 +22,7 @@ namespace ardent_11_01_02
              }
              answer = string.Concat(result);
 
-             WriteLine("영단어길이"+ answer);
+             WriteLine("뒤집은단어"+ answer);
          }
 
      }*/

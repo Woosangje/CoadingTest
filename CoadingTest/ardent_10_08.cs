@@ -12,29 +12,29 @@ namespace ardent_10_08
     {
         static void Main(string[] args)
         {
-            WriteLine("정수 입력");
+            Write("정수 입력 :");
             string input = ReadLine();
             int n = int.Parse(input);
-            Write("2의 {0}승은", n);
+            WriteLine(n);
+            int s = n;
             int result = 1;
-            Recursive(n, result);
-
+            Write("2의 {0}승은 :", n);
+            Recursion(s, result);
+           
         }
-
-        static void Recursive(int num, int num2)
+        static void Recursion(int num, int result)
         {
-            if (num > 0)
+            if(num>0)
             {
-                num2 = num2 * 2;
-                Recursive(num - 1, num2);
-            }
-            else
+ result = result * 2;
+            Recursion(num - 1, result);
+            }else
             {
-                WriteLine(num2);
+                WriteLine(result);
+            
                 return;
             }
-
-
+            
         }
 
     }*/
