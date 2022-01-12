@@ -10,19 +10,20 @@ namespace ardent_11_01_02
         static void Main(string[] args)
         {
             WriteLine("영단어 입력");
-            string input = ReadLine();
-            //char[] result = Enumerable.Repeat(' ', input.Length).ToArray();
+            char[] input = ReadLine().ToCharArray();
             byte[] ascii = Encoding.ASCII.GetBytes(input);
             byte result = ascii[0];
-            foreach(var value in ascii)
+            char result2 = ' ';
+            for(int i=0; i<input.Length; i++)
             {
-                if(result<value)
+                if(result<ascii[i])
                 {
-                    result = value;
+                    result = ascii[i];
+                    result2 = input[i];
                 }
-               
             }
-            WriteLine("아스키코드 값이 제일 큰 단어 : "+result);
+            
+            WriteLine("아스키코드 값이 제일 큰 단어 : "+result2);
 
         }
 
