@@ -1,24 +1,33 @@
 ﻿using System;
 using static System.Console;
-using System.Linq;
-namespace ardent_11_01_02
+namespace ardent_11_02_02
 {
     //도전 6
-    /*
+    /*2
     class MainApp
     {
         static void Main(string[] args)
         {
-            WriteLine("영단어 입력");
-            char[] input = ReadLine().ToCharArray();
-            char[] result = Enumerable.Repeat(' ', input.Length).ToArray();
-            Write("뒤집은 단어:");
-            for(int i=0; i<input.Length; i++)
+            
+            char[] voca;
+            char temp;
+            WriteLine("영단어 입력: ");
+            voca = ReadLine().ToCharArray();
+            int len = voca.Length;
+            Write("뒤집힌 영단어: ");
+            for (int i=0; i<len/2; i++)
             {
-                result[i] = input[input.Length - i - 1];
-                Write(result[i]);
+                temp = voca[i];
+                voca[i] = voca[len - i - 1];
+                voca[len - i - 1] = temp;
+               
             }
-
+            for(int i=0; i<len; i++)
+            {
+                Write(voca[i]);
+            }
+            
+            
         }
 
     }*/

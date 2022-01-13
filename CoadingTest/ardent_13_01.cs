@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 //using System.Text;
-namespace ardent_11_01_02
+namespace ardent_11_02_03
 {
     //도전 6
     /*

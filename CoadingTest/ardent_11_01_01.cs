@@ -1,6 +1,5 @@
 ﻿using System;
 using static System.Console;
-using System.Linq;
 
 namespace ardent_11_01_01
 {
@@ -12,62 +11,32 @@ namespace ardent_11_01_01
         static void Main(string[] args)
         {
             WriteLine("정수 5개 입력");
-            string[] input = Enumerable.Repeat(" ", 5).ToArray();
-            int[] number = Enumerable.Repeat(0, 5).ToArray();
-
-            for (int i = 0; i < input.Length; i++)
+            int[] arr = new int[5];
+            int max, min, sum;
+            for(int i=0; i<5; i++)
             {
-                input[i] = ReadLine();
-                number[i] = int.Parse(input[i]);
+                Write("입력: ");
+                arr[i] = int.Parse(ReadLine());
             }
 
-            WriteLine("입력된 정수 중에서 최댓값: "+Max(number));
-            WriteLine("입력된 정수 중에서 최솟값: "+Min(number));
-            WriteLine("입력된 정수의 총 합 " +Total(number));
-
-        }
-
-        static int Max(int[] arr)
-        {
-            int result = arr[0];
-            for (int i = 0; i < arr.Length; i++)
+            max = min = sum = arr[0];
+            for(int i=1; i<5; i++)
             {
-                if (result < arr[i])
-                {
-                    result = arr[i];
-                }
-
+                sum += arr[i];
+                if (max < arr[i])
+                    max = arr[i];
+                if (min > arr[i])
+                    min = arr[i];
             }
-            return result;
-        }
-        static int Min(int[] arr)
-        {
-            int result = arr[0];
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (result > arr[i])
-                {
-                    result = arr[i];
-                }
-            }
-            return result;
 
-        }
-
-        static int Total(int[] arr)
-        {
-            int result = 0;
-            for (int i = 0; i < arr.Length; i++)
-            {
-                result += arr[i];
-
-            }
-            return result;
+            WriteLine("최댓값: " + max);
+            WriteLine("최솟값: " + min);
+            WriteLine("총 합 : " + sum);
         }
 
 
-    }*/
-
+    }
+    */
 }
 
 

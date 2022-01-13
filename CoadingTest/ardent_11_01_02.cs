@@ -1,6 +1,6 @@
 ﻿using System;
 using static System.Console;
-
+using System.Text;
 namespace ardent_11_01_02
 {
     //문제2
@@ -9,12 +9,12 @@ namespace ardent_11_01_02
      {
          static void Main(string[] args)
          {
-            char[] arr = new char[] { 'G', 'o', 'o', 'd', ' ', 'T', 'i', 'm', 'e' };
-            for(int i=0; i<arr.Length; i++)
+            char[] voca = new char[] { 'G', 'o', 'o', 'd', ' ', 'm', 'o', 'r', 'n', 'i', 'n', 'g' };
+            for(int i=0; i<voca.Length; i++)
             {
-                Write(arr[i]);
+                Write(voca[i]);
             }
-             WriteLine();
+            WriteLine();
 
          }
 
