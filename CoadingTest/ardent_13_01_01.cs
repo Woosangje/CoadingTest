@@ -10,31 +10,26 @@ namespace ardent_13_01_01
         static void Main(string[] args)
         {
             int[] arr =new int[5] { 1, 2, 3, 4, 5 };
-            Point point1 = new Point();
-            point1.Ptr = arr;
-            for(int i=0; i<5; i++)
+            for(int i=0; i<arr.Length; i++)
             {
-                point1.Ptr += 2;
-
+                arr[i] = Ptr(arr[i]);
+                WriteLine(arr[i]);
             }
-
+            
         }
+        public static int Ptr(int num)
+        {
+
+
+            return num += 2;
+            
+        }
+
 
         
-    }
-    class Point
-    {
-        public <T> ptr;
-        public <T> Ptr
-        {
-            get{
-                return this.ptr;
-            }
-            set{
-                this.ptr=value;
-            }
-        }
     }*/
+
+
 }
 
 

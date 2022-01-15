@@ -13,14 +13,12 @@ namespace ardent_11_01_01
             WriteLine("정수 5개 입력");
             int[] arr = new int[5];
             int max, min, sum;
-            for(int i=0; i<5; i++)
+            for(int i=0; i<arr.Length; i++)
             {
-                Write("입력: ");
                 arr[i] = int.Parse(ReadLine());
             }
-
             max = min = sum = arr[0];
-            for(int i=1; i<5; i++)
+            for(int i=0; i<arr.Length; i++)
             {
                 sum += arr[i];
                 if (max < arr[i])
@@ -28,15 +26,14 @@ namespace ardent_11_01_01
                 if (min > arr[i])
                     min = arr[i];
             }
-
             WriteLine("최댓값: " + max);
             WriteLine("최솟값: " + min);
             WriteLine("총 합 : " + sum);
         }
 
 
-    }
-    */
+    }*/
+    
 }
 
 

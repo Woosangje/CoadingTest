@@ -13,25 +13,23 @@ namespace ardent_10_08
         static void Main(string[] args)
         {
             Write("정수 입력 :");
-            string input = ReadLine();
-            int n = int.Parse(input);
+            int n = int.Parse(ReadLine());
             int number = n;
             int result = 1;
-
             Recursion(number,ref result);
-            WriteLine("2의 n승은" + result);
 
+            WriteLine("2의 {0}승은 {1}",n , result);
         }
-        static void Recursion(int number,ref int total)
+
+        public static void Recursion(int n, ref int result)
         {
-           if(number>0)
+            if(n>0)
             {
-                total = total * 2;
-                Recursion(number - 1, ref total);
+                result = result * 2;
+                Recursion(n - 1, ref result);
             }
-            
-            
         }
+        
     }*/
 }
 

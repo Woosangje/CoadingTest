@@ -10,10 +10,9 @@ namespace ardent_10_01
            static void Main(string[] args)
            {
                Write("10진수 정수 입력");
-               string input = ReadLine();
-               int number = int.Parse(input);
-               WriteLine("16진수 : " + Convert.ToString(number, 16));
-               WriteLine();
+            int number = int.Parse(ReadLine());
+            WriteLine("16진수 : " + Convert.ToString(number, 16));
+            WriteLine();
            }
 
        }*/

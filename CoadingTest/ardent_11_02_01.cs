@@ -2,8 +2,8 @@
 using static System.Console;
 namespace ardent_11_02_01
 {
-   
-   /*
+
+    /*
     class MainApp
     {
         static void Main(string[] args)

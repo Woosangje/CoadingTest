@@ -10,11 +10,10 @@ namespace ardent_10_07
         static void Main(string[] args)
         {
             Write("상수 n의 입력:");
-            string input = ReadLine();
-            int n = int.Parse(input);
+            int n = int.Parse(ReadLine());
             int count = n;
             int k = 0;
-            while (count > 1)
+            while(count>1)
             {
                 count = count / 2;
                 k += 1;
