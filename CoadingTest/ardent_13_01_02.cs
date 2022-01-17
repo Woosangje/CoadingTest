@@ -3,7 +3,7 @@ using static System.Console;
 //using System.Text;
 namespace ardent_13_01_01
 {
-    //도전 6
+    //문제2
     /*
   class MainApp
   {
@@ -12,21 +12,18 @@ namespace ardent_13_01_01
           int[] arr =new int[5] { 1, 2, 3, 4, 5 };
           for(int i=0; i<arr.Length; i++)
           {
-              arr[i] = Ptr(arr[i]);
-              WriteLine(arr[i]);
+              
+              WriteLine( Ptr(arr[i]) );
+                WriteLine(arr[i]+"원래값");
           }
 
       }
       public static int Ptr(int num)
       {
-
-
-          return num += 2;
+            num += 2;
+            return num;
 
       }
-
-
-
   }*/
 }
 
