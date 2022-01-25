@@ -3,7 +3,8 @@ using static System.Console;
 //using System.Text;
 namespace ardent_13_01_01
 {
-    //문제2
+    //문제3
+
     /*
   class MainApp
   {
@@ -11,19 +12,19 @@ namespace ardent_13_01_01
       {
           int[] arr =new int[5] { 1, 2, 3, 4, 5 };
 
-            WriteLine(Ptr(ref arr));
-          
+            WriteLine(Ptr(arr));
 
-      }
-      public static int Ptr(ref int[] num)
-      {
-            int result = 0;
-            for(int i=num.Length-1; i>=0; i--)
+
+        }
+        static int Ptr(int[] num)
+        {
+            int sum = 0;
+            for(int i=num.Length-1; i>0; i--)
             {
-                result += num[i];
+                sum += num[i];
             }
-            return result;
-      }
+            return sum;
+        }
   }*/
 }
 

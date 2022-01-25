@@ -9,7 +9,7 @@ namespace ardent_11_01_02
      {
          static void Main(string[] args)
          {
-            char[] voca = new char[] { 'G', 'o', 'o', 'd', ' ', 'm', 'o', 'r', 'n', 'i', 'n', 'g' };
+            char[] voca = new char[] { 'G', 'o', 'o', 'd', ' ', 't', 'i', 'm', 'e' };
             for(int i=0; i<voca.Length; i++)
             {
                 Write(voca[i]);
@@ -18,8 +18,9 @@ namespace ardent_11_01_02
 
          }
 
-     }
-    */
+     }*/
+    
+
 }
 
 

@@ -4,6 +4,7 @@ using static System.Console;
 namespace ardent_11_01_01
 {
     //11-1
+
     /*
     class MainApp
     {
@@ -18,22 +19,22 @@ namespace ardent_11_01_01
                 arr[i] = int.Parse(ReadLine());
             }
             max = min = sum = arr[0];
-            for(int i=0; i<arr.Length; i++)
+
+            for(int i=1; i<arr.Length; i++)
             {
                 sum += arr[i];
                 if (max < arr[i])
                     max = arr[i];
                 if (min > arr[i])
                     min = arr[i];
+
             }
             WriteLine("최댓값: " + max);
             WriteLine("최솟값: " + min);
             WriteLine("총 합 : " + sum);
         }
 
-
     }*/
-
 }
 
 
