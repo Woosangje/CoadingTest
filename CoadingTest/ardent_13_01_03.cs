@@ -4,7 +4,6 @@ using static System.Console;
 namespace ardent_13_01_01
 {
     //문제3
-
     /*
   class MainApp
   {

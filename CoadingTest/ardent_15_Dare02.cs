@@ -10,13 +10,10 @@ namespace ardent_15_Dare01
         static void Main(string[] args)
         {
             WriteLine("10진수 정수 입력:");
-            //int number = int.Parse(ReadLine());
-            int number = 4;
-            int sum = 0;
-            int m = 10;
-            //
+            int number = int.Parse(ReadLine());
       
-            WriteLine("결과 :" + Convert.ToString(number, 2));
+      
+           WriteLine("결과 :" + Convert.ToString(number, 2));
         }
 
     }*/

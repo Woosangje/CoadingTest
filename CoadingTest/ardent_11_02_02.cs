@@ -2,7 +2,8 @@
 using static System.Console;
 namespace ardent_11_02_02
 {
-    //도전 6
+    //문제2
+
     /*
    class MainApp
    {
