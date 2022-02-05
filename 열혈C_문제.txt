@@ -195,9 +195,17 @@ level, bob과 같은 단어들은 회문에 속한다. 이에 우리는 인자�
 어디까지나 구현의 편의를 고려한 제약사항일 뿐이다).
 
 실행의 예
-문자역 입력: noon
+문자열 입력: noon
 회문 입니다.
 
+// string a.Equals(b, stringComparison.OrdinallgnoreCase);
+//if(string.Compare(a, b, true) ==0 )//대소문자 무시
+//if(string.Compare(a, b, false) ==0 )//대소문자 판별
+//ToUpper, ToLower를 사용하여 문자를 대문자, 소문자로 변경
+//var1.ToUpper();
+//var1.ToLower();
+//Trim을 사용하여 문자열의 공백을 제거
+//val1.Trim();
 도전4의 해결을 위한 GUIDE
 입력된 문자열의 길이를 알아야 회문인지 아닌지를 판단할 수 있다. 따라서 문제의 해결을 위해서는
 문자열의 길이를 계산해서 반환하는 함수도 정의해야 한다. 참고로 이러한 기능의 함수가 표준함수

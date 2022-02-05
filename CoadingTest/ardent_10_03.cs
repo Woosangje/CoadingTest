@@ -10,18 +10,19 @@ namespace ardent_10_03
         static void Main(string[] args)
         {
             WriteLine("두 개의 정수를 입력");
-            int number1 = int.Parse(ReadLine());
-            int number2 = int.Parse(ReadLine());
-            int number3 = 0;
+            int num1 = int.Parse(ReadLine());
+            int num2 = int.Parse(ReadLine());
+            int result = 0;
 
-            for (int i = 0; i <= number1; i++)
+           for(int i=1; i<=num1; i++)
             {
-                if (number1 % i == 0 && number2 % i == 0)
+                if(num1%i==0 && num2%i ==0)
                 {
-                    number3 = i;
+                    result = i;
                 }
+
             }
-            WriteLine(number3);
+            WriteLine("최대 공약수 :" + result);
         }
 
     }*/

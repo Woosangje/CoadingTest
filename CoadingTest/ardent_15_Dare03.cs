@@ -19,24 +19,27 @@ namespace ardent_15_Dare02
             for(int i=0; i<len; i++)
             {
                 num = int.Parse(ReadLine());
-                if(num%2==1)
+                if(num%2 == 1)
                 {
                     arr[oddCount] = num;
                     oddCount++;
                 }
-                else if(num %2==0)
+                else if(num %2 ==0)
                 {
                     arr[evenCount] = num;
                     evenCount--;
                 }
-
+                else if(num %2 ==0)
+                {
+                    arr[evenCount] = num;
+                    evenCount--;
+                }
             }
 
             for(int i=0; i<len; i++)
             {
                 Write("{0}, ", arr[i]);
             }
-     
      
       
         }

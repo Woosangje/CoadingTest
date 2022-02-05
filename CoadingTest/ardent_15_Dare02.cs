@@ -13,7 +13,7 @@ namespace ardent_15_Dare01
             int number = int.Parse(ReadLine());
       
       
-           WriteLine("결과 :" + Convert.ToString(number, 2));
+           WriteLine("결과 :" + Convert.ToString(number,2));
         }
 
     }*/

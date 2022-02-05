@@ -4,8 +4,8 @@ using static System.Console;
 namespace ardent_15_Dare01
 {
     //도전1
-
     /*
+    
     class MainApp
     {
         static void Main(string[] args)
@@ -28,7 +28,7 @@ namespace ardent_15_Dare01
             {
                 if(arr[i]%2==1)
                 {
-                    Write(arr[i]);
+                    Write(arr[i] + ", ");
                 }
             }
         }
@@ -38,7 +38,7 @@ namespace ardent_15_Dare01
             {
                 if(arr[i]%2==0)
                 {
-                    Write(arr[i]);
+                    Write(arr[i] + ", ");
                 }
             }
         }

@@ -4,8 +4,6 @@ using static System.Console;
 namespace ardent_10_01
 {
     //도전 1 10진수 정수를 입력 받아서 16진수로 출력
-
-
     /*
     class MainApp
     {

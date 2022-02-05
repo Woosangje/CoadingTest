@@ -5,7 +5,6 @@ namespace ardent_10_08
 {
     //도전 8
     //2를 n횟수만큼곱하는것
-
     /*
   class MainApp
   {
