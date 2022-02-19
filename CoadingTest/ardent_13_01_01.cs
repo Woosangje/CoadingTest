@@ -1,8 +1,9 @@
 ﻿using System;
 using static System.Console;
 //using System.Text;
-namespace ardent_13_01_01
-{
+namespace ardent_13_01_01 {
+    
+    //13-1 299p
     //문제1
 
 
@@ -12,19 +13,20 @@ namespace ardent_13_01_01
         static void Main(string[] args)
         {
             int[] arr = new int[5] { 1, 2, 3, 4, 5 };
-
+            Ptr( arr);
             for(int i=0; i<arr.Length; i++)
             {
-                Ptr(ref arr[i]);
+                
                 WriteLine(arr[i]);
             }
 
         }
-        static void Ptr(ref int num)
+        static void Ptr( int[] arr)
         {
-            num += 2;
+            for(int i=0; i<arr.Length; i++) {
+                arr[i] += 2;
+            }
         }
-
 
     }*/
 }

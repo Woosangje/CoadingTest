@@ -1,9 +1,9 @@
 ﻿using System;
 using static System.Console;
 //using System.Text;
-namespace ardent_13_01_01
-{
+namespace ardent_13_01_01 {
     //문제2
+
     /*
   class MainApp
   {

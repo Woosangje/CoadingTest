@@ -5,8 +5,6 @@ namespace ardent_10_06
 {
     //도전 6
 
-
-
     /*
 class MainApp
 {

@@ -1,8 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-namespace CoadingTest
-{
+namespace CoadingTest {
     //모래시계 만들기
 
 

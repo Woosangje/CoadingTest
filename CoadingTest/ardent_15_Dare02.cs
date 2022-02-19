@@ -3,7 +3,8 @@ using static System.Console;
 //using System.Text;
 namespace ardent_15_Dare01
 {
-    //도전2
+
+
     /*
     class MainApp
     {
