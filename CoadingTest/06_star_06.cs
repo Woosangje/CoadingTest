@@ -14,7 +14,6 @@ namespace CoadingTest
      ***
       *
   */
-
     /*
 class MainApp
 {

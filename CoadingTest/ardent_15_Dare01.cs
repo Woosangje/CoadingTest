@@ -4,7 +4,6 @@ using static System.Console;
 namespace ardent_15_Dare01 {
     //도전1
 
-
     /*
  class MainApp
  {
