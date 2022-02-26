@@ -6,6 +6,7 @@ using System.Linq;
 namespace ardent_15_Dare02
 {
     //도전2
+
     /*
     class MainApp
     {
@@ -33,9 +34,6 @@ namespace ardent_15_Dare02
             }
         }
 
-       
-        
-      
     }*/
 }
 

@@ -11,7 +11,7 @@ namespace ardent_15_Dare05_BubbleSort2 {
         static void Main(string[] args)
         {
             int[] arr = new int[7];
-            for(int i=0; i<arr.Length; i++) {
+            for(int i =0; i < arr.Length; i++) {
                 arr[i] = int.Parse(ReadLine());
             }
 
@@ -25,7 +25,7 @@ namespace ardent_15_Dare05_BubbleSort2 {
         static public void DesSort(ref int[] ary, int len) {
             int temp = 0;
             for(int i=0; i<len; i++) {
-                for(int j=0; j<len -(i+1); j++) {
+                for(int j=0; j < len -1-i; j++) {
 
                     if(ary[j] < ary[j + 1]) {
                         temp = ary[j];
@@ -36,7 +36,6 @@ namespace ardent_15_Dare05_BubbleSort2 {
             }
         }
 
-      
     }*/
 }
 

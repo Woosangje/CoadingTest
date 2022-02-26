@@ -7,34 +7,56 @@ namespace ardent_16Quesion03 {
     //도전3
     /*
     class MainApp {
+        public static int[,] record = new int[5, 5];
+        static void WriteRecord() {
 
-        static void Main(string[] args) {
-            int[,] board = new int[5, 5];
             int sum;
-            for (int i = 0; i < 4; i++) {
+            for(int i=0; i< 4; i++) {
                 sum = 0;
                 WriteLine("{0}번째 학생의 성적 입력 ", i + 1);
 
-                for (int j = 0; j < 4; j++) {
-                    WriteLine("과목 {0}: ", j + 1);
-                    board[i, j] = int.Parse(ReadLine());
+                for(int j=0; j< 4; j++) {
+                    Write("과목 {0}: ", j + 1);
+                    record[i, j] = int.Parse(ReadLine());
                 }
-                board[i, 4] = sum;
+                record[i, 4] = sum;
             }
         }
 
-        static void WriteSumBoard() {
-            int sum = 0;
+        static void WriteSumRecord() {
+            int sum = 0;//과목별 성적 합계
+            int i, j;
 
-            for (int i = 0; i < 4; i++) {
+            for(i=0; i < 4; i++) {
                 sum = 0;
-                for (int j = 0; j < 4; j++) {
-                    sum += board[j, i];
-
-                }
-
+                for (j = 0; j < 4; j++)
+                    sum += record[j, i];
+                record[4, i] = sum;
+                record[4, 4] += sum;
             }
         }
+
+        static void ShowAllRecord() {
+            int i, j;
+            for(i=0; i<5; i++) {
+                for(j =0; j<5; j++) {
+                    Write("{0} ", record[i, j]);
+                }
+                WriteLine();
+            }
+        }
+
+        static void Main(string[] args) {
+            WriteRecord();
+            WriteSumRecord();
+            ShowAllRecord();
+            
+
+
+        }
+
+
+
     }*/
 }
 
