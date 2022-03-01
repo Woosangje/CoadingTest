@@ -263,3 +263,12 @@ Chapter20 도전! 프로그래밍3
 이미지가 많으니 서적 참조
 
 도전1 ~ 도전6
+
+도전3 임의의 난수 생성
+c#에서 임의의 난수는 Random 클래스의 Next() 메소드를 사용하여 생성할 수 있습니다.
+Random randomojb = new Random();
+int rendomValue = randomObj.Next();   //Next(최솟값, 최대값),(최대값)
+NextDouble();과 NextBytes()도 존재함
+
+도전 4 생략
+Rnadom.Next()는 패턴이 없는거 같다.

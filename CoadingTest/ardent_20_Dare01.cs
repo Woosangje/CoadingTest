@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 namespace ardent_20_Dare01 {
     //도전1
-    
+    /*
     class MainApp {
         //90도로 돌려서 출력하기
         static void Main(string[] args) {
@@ -24,21 +24,21 @@ namespace ardent_20_Dare01 {
 
                 for(int j=0; j<len; j++) {
                    
+
                     boardB[j, len - 1 - i] = board[i, j];
                 }
-                WriteLine();
             }
 
-            for(int i=0; i<len; i++) {
+            for (int i=0; i<len; i++) {
                 for(int j=0; j<len; j++) {
-                    Write("{0}, ", boardB[i, j]);
+                    Write("{0}, ", board[i, j]);
                 }
                 WriteLine();
             }
 
         }
 
-    }
+    }*/
 }
 
 
