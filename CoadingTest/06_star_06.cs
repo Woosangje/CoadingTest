@@ -1,7 +1,6 @@
 ﻿using System;
 using static System.Console;
-namespace CoadingTest
-{
+namespace CoadingTest {
     //별 다이아몬드 만들기
     /*
       *
@@ -14,6 +13,7 @@ namespace CoadingTest
      ***
       *
   */
+
     /*
 class MainApp
 {
