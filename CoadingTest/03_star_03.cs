@@ -12,18 +12,16 @@ namespace CoadingTest {
      */
 
     /*
-class MainApp
-{
- static void Main(string[] args)
- {
-     for (int i = 0; i < 5; i++)
-     {
-         for (int j = 0; j < 5 - i; j++)
-         {
-             Console.Write("*");
-         }
-         Console.WriteLine("");
-     }
- }
-}*/
+    class MainApp {
+        static void Main(string[] args) {
+            int num = 5;
+            for(int i=0; i< num; i++) {
+
+                for(int j=num; j>i; j--) {
+                    Write("*");
+                }
+                Write("\n");
+            }
+        }
+    }*/
 }

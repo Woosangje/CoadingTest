@@ -4,11 +4,12 @@ using static System.Console;
 namespace ardent_11_01_02 {
     //문제3
 
+
     /*
-class MainApp
-{
- static void Main(string[] args)
- {
+    class MainApp
+    {
+    static void Main(string[] args)
+    {
      char[] voca;
      int len = 0;
      char max = ' ';
@@ -23,9 +24,9 @@ class MainApp
      }
      WriteLine("아스키코드 값이 제일 큰 단어 : " + max);
 
- }
+    }
 
-}*/
+    }*/
+
+
 }
-
-

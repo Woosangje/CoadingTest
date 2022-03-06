@@ -1,9 +1,9 @@
 ﻿using System;
 using static System.Console;
 
-namespace ardent_10_05
-{
+namespace ardent_10_05 {
     //도전 5  10개의 소수(Prime Number)를 출력
+
 
     /*
  class MainApp

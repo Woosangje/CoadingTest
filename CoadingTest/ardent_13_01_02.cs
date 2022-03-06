@@ -6,25 +6,23 @@ namespace ardent_13_01_01 {
 
 
     /*
-  class MainApp
-  {
-      static void Main(string[] args)
-      {
-          int[] arr =new int[5] { 1, 2, 3, 4, 5 };
-          for(int i=0; i< arr.Length; i++)
-            {
-                WriteLine(Ptr(arr[i]));
-                WriteLine(arr[i] + "원래값");
+    class MainApp {
+        static void Main(string[] args) {
+            int[] arr = new int[5] { 1, 2, 3, 4, 5 };
+            int[] ptr = new int[5];
+            ptr =  (int[])arr.Clone();
+            for(int i=0; i < arr.Length; i++) {
+
+                Write(arr[i] + ", ");
+            }
+            Write("\n");
+            for (int i = 0; i < arr.Length; i++) {
+                ptr[i] += 2;
+                Write(ptr[i]+", ");
             }
 
-      }
-      public static int Ptr(int num)
-      {
-            num += 2;
-            return num;
-
-      }
-  }*/
+        }
+    }*/
 }
 
 

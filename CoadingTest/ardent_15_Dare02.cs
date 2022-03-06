@@ -15,6 +15,7 @@ namespace ardent_15_Dare01
       
       
            WriteLine("결과 :" + Convert.ToString(number,2));
+
         }
 
     }*/
