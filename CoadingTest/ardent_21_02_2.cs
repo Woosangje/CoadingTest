@@ -5,23 +5,25 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 namespace ardent_21_02 {
     //문제 21-1 알파벳 반전
+
+
     /*
-    class MainApp {
+   class MainApp {
 
-        static void Main(string[] args) {
+       static void Main(string[] args) {
 
-            WriteLine("문자열 2회 입력");
-            string str1, str2, str3;
+           WriteLine("문자열 2회 입력");
+           string str1, str2, str3;
 
-            str1 = ReadLine();
-            str2 = ReadLine();
+           str1 = ReadLine();
+           str2 = ReadLine();
 
-            str3 = str1 + str2;
+           str3 = str1 + str2;
 
-            WriteLine(str3);
-        }
+           WriteLine(str3);
+       }
 
-    }*/
+   }*/
 }
 
 

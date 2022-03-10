@@ -6,6 +6,7 @@ using System.Linq;
 namespace ardent_16Quesion02 {
     //도전2
 
+
     /*
     class MainApp
     {
