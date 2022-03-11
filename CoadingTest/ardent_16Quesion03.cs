@@ -6,6 +6,7 @@ using System.Linq;
 namespace ardent_16Quesion03 {
     //도전3
 
+
     /*
 class MainApp {
     public static int[,] record = new int[5, 5];

@@ -12,26 +12,25 @@ namespace ardent_16Quesion02 {
     {
         static void Main(string[] args)
         {
-            int[,] arrA =new int[2,4] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
+            int[,] arrA = new int[2, 4]{ { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
             int[,] arrB = new int[4, 2];
-            int i, j;
+        
+        
+            for(int i=0; i<4; i++) {
 
-            //이동
-            for(i =0; i<2; i++) {
-                for(j=0; j<4; j++) {
-                    arrB[j, i] = arrA[i, j];
+                for(int j=0; j<2; j++) {
+
+                    arrB[i, j] = arrA[j, i];
                 }
             }
 
-            //출력
-            for(i=0; i<4; i++) {
-                for (j = 0; j < 2; j++)
-                    Write("{0} ", arrB[i, j]);
-                WriteLine();
-            }
-        }
+            for(int i=0; i<4; i++) {
 
+                WriteLine(" {0} {1} ", arrB[i, 0], arrB[i, 1]);
+            }
         
+        }
+ 
       
     }*/
 }

@@ -9,41 +9,39 @@ namespace ardent_15_Dare01 {
     /*
     class MainApp {
         static void Main(string[] args) {
-
+            WriteLine("10개의 숫자 입력");
             int[] arr = new int[10];
             int len = arr.Length;
+            for(int i=0; i<len; i++) {
 
-            for(int i=0; i< len; i++) {
-                arr[i]=int.Parse(ReadLine());
+                arr[i] = int.Parse(ReadLine());
             }
             Write("홀수 출력: ");
-            ArrOdd(arr);
-            Write("\n");
+            AddOdd(arr);
 
             Write("짝수 출력: ");
-            ArrEven(arr);
-            Write("\n");
+            AddEven(arr);
+
 
         }
+        static void AddOdd(int[] arr) {
+            
+            foreach(int s in arr) {
 
-        static public void ArrOdd(int[] arr) {
-
-            for(int i=0; i <10; i++) {
-                if(arr[i] % 2 == 1) {
-                    Write(arr[i] + ", ");
+                if(s % 2 == 1) {
+                    Write("{0}, ", s);
                 }
             }
         }
 
-        static public void ArrEven(int[] arr) {
+        static void AddEven(int[] arr) {
+            foreach(int s in arr) {
 
-            for(int i=0; i<10; i++) {
-                if(arr[i] % 2 == 0) {
-                    Write(arr[i] + ", ");
+                if(s%2 == 0) {
+                    Write("{0}, ", s);
                 }
             }
         }
-
 
     }*/
 }

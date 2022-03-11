@@ -4,22 +4,12 @@ using System.Collections;
 using System.Collections.Generic;
 namespace ardent_21_02 {
     //문제 21-1 알파벳 반전
-    
+    /*
     class Employee {
         public string name;
         public string pid;
         public int salary;
 
-        public string Name(string name) {
-            return this.name = name;
-        }
-        public string Pid(string pid) {
-            return this.pid = pid;
-        }
-
-        public int Salary(int salary) {
-            return this.salary = salary;
-        }
 
     }
     class MainApp {
@@ -30,11 +20,11 @@ namespace ardent_21_02 {
 
             for(int i=0; i<3; i++) {
                 Write("이름: ");
-                arr[i].Name
+                arr[i].name = ReadLine();
                 Write("주민번호: ");
-                arr[i].Pid(ReadLine());
+                arr[i].pid = ReadLine();
                 Write("급여: ");
-                arr[i].Salary(int.Parse(ReadLine()));
+                arr[i].salary =int.Parse( ReadLine());
             }
 
             for(int i=0; i<3; i++) {
@@ -45,7 +35,7 @@ namespace ardent_21_02 {
             }
         }
 
-    }
+    }*/
 }
 
 
