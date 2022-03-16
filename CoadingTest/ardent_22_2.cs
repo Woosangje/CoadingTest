@@ -21,17 +21,13 @@ namespace ardent_21_02 {
             for(int i=0; i<3; i++) {
                 Write("이름: ");
                 arr[i].name = ReadLine();
-                Write("주민번호: ");
-                arr[i].pid = ReadLine();
-                Write("급여: ");
-                arr[i].salary =int.Parse( ReadLine());
+            
             }
 
             for(int i=0; i<3; i++) {
 
                 WriteLine("이름: {0}", arr[i].name);
-                WriteLine("주민번호: {0}", arr[i].pid);
-                WriteLine("급여: {0}", arr[i].salary);
+               
             }
         }
 
