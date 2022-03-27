@@ -335,6 +335,8 @@ Chapter22
 세 명의 정보를 프로그램 사용자로부터 입력 받아서 배열에 저장한 다음, 배열에 저장된 데이터를
 순서대로 출력하는 예제를 작성해보자.
 
+//단순히 c처럼 코드짜면 employee의 변수들이 null로 초기화되서
+//Object reference not set to an instance of an object 로 오류뜬다 필드변수도 초기화할시 new로 할당해주어야함
 
 Chapter23
 문제23-1 [구조체 변수의 연산]

@@ -5,7 +5,6 @@ namespace ardent_13_01_04
 {
     //문제4
 
-
     /*
      class MainApp
      {

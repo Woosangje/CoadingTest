@@ -6,7 +6,6 @@ namespace ardent_13_01_01 {
     //13-1 299p
     //문제1
 
-
     /*
     class MainApp
     {

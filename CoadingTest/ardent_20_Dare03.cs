@@ -8,6 +8,7 @@ namespace ardent_20_Dare01 {
     //난수란 임의의, 정해지지않은, 무엇이 될지 모르는 수를 의미한다.
 
 
+
     /*
     class MainApp {
         
