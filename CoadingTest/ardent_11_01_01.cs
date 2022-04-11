@@ -11,15 +11,17 @@ namespace ardent_11_01_01
         static void Main(string[] args) {
             WriteLine("정수 5개 입력");
             int[] arr = new int[5];
-            int len = arr.Length;
-            int max, min, sum;
-            for(int i=0; i< len; i++) {
+
+            for(int i=0; i<5; i++) {
 
                 arr[i] = int.Parse(ReadLine());
             }
+            int max, min, sum;
+
             max = min = sum = arr[0];
 
-            for(int i=1; i<len; i++) {
+            for(int i=1; i<5; i++) {
+
                 sum += arr[i];
                 if (max < arr[i])
                     max = arr[i];

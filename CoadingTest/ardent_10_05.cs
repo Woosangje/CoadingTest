@@ -7,29 +7,30 @@ namespace ardent_10_05 {
 
 
     /*
- class MainApp
- {
-     static void Main(string[] args)
-     {
-         int count = 0;
-         int max = 10;
-         for(int num = 2; count < max; num++)
-         {
-             for(int j=2; j<=num; j++)
-             {
-                 if (num % j == 0 && j != num)
-                     break;
-                 else if(j == num)
-                 {
-                     WriteLine(num);
-                     count += 1;
-                 }
-             }
-         }
+    class MainApp {
+        static void Main(string[] args) {
 
-     }
+            int count = 0;
+            int num = 2;
+            while (count < 10) {
 
- }*/
+                
+                for(int i=2; i<=num; i++) {
+
+                    if (num % i == 0 && i != num)
+                        break;
+                    else if(i == num) {
+                        WriteLine(num);
+                        count++;
+                    }
+
+                }
+                num++;
+            }
+
+        }
+
+    }*/
 }
 
 

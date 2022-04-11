@@ -16,15 +16,16 @@ namespace ardent_10_08 {
             WriteLine("2의 {0}승은 {1} ", n, result);
         }
 
-        static void Recursion(int num,ref int result) {
+        
+        static void Recursion(int _n, ref int _result) {
 
-            if (num > 0) {
-                result *= 2;
-                Recursion(num-1, ref result);
+            if (_n > 0) {
+                _result *= 2;
+                Recursion(_n - 1, ref _result);
             }
         }
        
-    }*/
+    */
 }
 
 

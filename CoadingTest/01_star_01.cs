@@ -3,7 +3,6 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 using static System.Console;
-
 namespace CoadingTest
 {
     //5x5사각형 별찍기
@@ -17,23 +16,24 @@ namespace CoadingTest
      */
 
     /*
-    class MainApp
-    {
-        static void Main(string[] args)
-        {
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine("");
-            }
-            Console.WriteLine("");
-        }
-    }
+   class MainApp
+   {
+       static void Main(string[] args)
+       {
+           for (int i = 0; i < 5; i++)
+           {
+               for (int j = 0; j < 5; j++)
+               {
+                   Console.Write("*");
+               }
+               Console.WriteLine("");
+           }
+           Console.WriteLine("");
+       }
+   }
 
-    */
+   */
+
 
 
 
