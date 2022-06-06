@@ -12,18 +12,17 @@ namespace CoadingTest {
      */
 
 
-
     /*
-     class MainApp {
-         static void Main(string[] args) {
-             int num = 5;
-             for(int i=0; i< num; i++) {
+         class MainApp {
+             static void Main(string[] args) {
+                 int num = 5;
+                 for(int i=0; i< num; i++) {
 
-                 for(int j=num; j>i; j--) {
-                     Write("*");
+                     for(int j=num; j>i; j--) {
+                         Write("*");
+                     }
+                     Write("\n");
                  }
-                 Write("\n");
              }
-         }
-     }*/
+         }*/
 }

@@ -11,22 +11,16 @@ namespace CoadingTest
      ****
      *****
      */
-
-
     /*
-   class MainApp
-   {
-       static void Main(string[] args)
-       {
-           int num = 5;
-           for (int i = 0; i < num; i++)
-           {
-               for (int j = 0; j < i + 1; j++)
-               {
-                   Write("*");
-               }
-               WriteLine();
-           }
-       }
-   }*/
+    class MainApp {
+        static void Main(string[] args) {
+            int num = 5;
+            for (int i = 0; i < num; i++) {
+                for (int j = 0; j < i + 1; j++) {
+                    Write("*");
+                }
+                WriteLine();
+            }
+        }
+    }*/
 }
