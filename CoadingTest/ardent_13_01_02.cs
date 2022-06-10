@@ -13,18 +13,21 @@ namespace ardent_13_01_01 {
         {
             int[] arr = new int[5] { 1, 2, 3, 4, 5 };
             int[] ptr = new int[5];
-            ptr = arr;
+            ptr = (int[])arr.Clone();
             for(int i=0; i<arr.Length; i++)
             {
                 ptr[i] += 2;
-                Write(arr[i]+", ");
+                Write(ptr[i] + ", ");
             }
+            for (int i = 0; i < arr.Length; i++) {
 
+                Write(arr[i] + ", ");
+            }
         }
         
 
-    }*/
-
+    }
+    */
 }
 
 
