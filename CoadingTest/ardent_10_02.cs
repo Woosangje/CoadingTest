@@ -3,6 +3,7 @@ using static System.Console;
 
 namespace ardent_10_02 {
     //프로그램 상용자로부터 두 개의 정수를 입력 받아서 구구단을 출력하는 프로그램을 작성해 보자.
+
     /*
 
     class MainApp

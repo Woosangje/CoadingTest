@@ -4,7 +4,6 @@ using static System.Console;
 namespace ardent_10_06 {
     //도전 6
 
-
     /*
 class MainApp {
     static void Main(string[] args) {
