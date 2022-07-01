@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using System.Text;
-namespace Backjoon_stap1 {
+namespace Backjoon_silver1546 {
 
     /*
     class MainApp {

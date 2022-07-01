@@ -5,51 +5,67 @@ using System.Collections.Generic;
 using System.Linq;
 namespace ardent_16Quesion03 {
     //도전3
+/*
+    class MainApp {
 
-    /*class MainApp {
-        public static int[,] record = new int[5, 5];
+        public static int[,] record = new int[5,5];
         static void WriteRecord() {
 
-            int sum;
-            for (int i = 0; i < 4; i++) {
-                sum = 0;
-                WriteLine("{0}번째 학생의 성적 입력 ", i + 1);
+            for(int i=0; i<4; i++) {
 
-                for (int j = 0; j < 4; j++) {
-                    Write("과목 {0}: ", j + 1);
+                Write("국영수사점수입력");
+                for (int j=0; j<4; j++) {
+
+                    
                     record[i, j] = int.Parse(ReadLine());
                 }
-                record[i, 4] = sum;
             }
+
+
         }
 
         static void WriteSumRecord() {
-            int sumA = 0;//과목별 성적 합계
-            int sumB = 0;//학생별 성적 합계
-            int i, j;
 
-            for (i = 0; i < 4; i++) {
-                sumA = 0;
-                sumB = 0;
-                for (j = 0; j < 4; j++) {
-                    sumA += record[j, i];
-                    sumB += record[i, j];
+            for (int i = 0; i < 4; i++) {
+
+                Write("국영수사점수입력");
+                for (int j = 0; j < 4; j++) {
+
+                    record[i, 4] += record[i, j];
+                    record[4, i] += record[j, i];
                 }
-
-                record[4, i] = sumA;
-                record[i, 4] = sumB;
-                record[4, 4] += sumA;
             }
-
         }
 
         static void ShowAllRecord() {
-            int i, j;
-            for (i = 0; i < 5; i++) {
-                for (j = 0; j < 5; j++) {
-                    Write("{0} ", record[i, j]);
+
+            WriteLine("    국어  영어  수학  국사  총점");
+            for (int i = 0; i < 5; i++) {
+
+                switch(i){
+
+                    case 0:
+                        Write("철희");
+                        break;
+                    case 1:
+                        Write("철수");
+                        break;
+                    case 2:
+                        Write("영희");
+                        break;
+                    case 3:
+                        Write("영수");
+                        break;
+                    case 4:
+                        Write("총점");
+                        break;
                 }
-                WriteLine();
+                for (int j = 0; j < 5; j++) {
+
+                    Write(record[i, j] + " ");
+                    
+                }
+                Write("\n");
             }
         }
 
@@ -64,8 +80,8 @@ namespace ardent_16Quesion03 {
 
 
 
-    }*/
-
+    }
+*/
 
 }
 
