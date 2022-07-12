@@ -6,15 +6,15 @@ using static System.Console;
 namespace Backjoon_Bronze_2_1009 {
 
     /*
-    class MainApp {
+class MainApp {
 
-        static void Main(string[] args) {
+    static void Main(string[] args) {
+
 
             int t = int.Parse(ReadLine());
 
             while(t > 0) {
 
-                //두수 입력
                 int a, b;
                 a = int.Parse(ReadLine());
                 b = int.Parse(ReadLine());
@@ -22,6 +22,7 @@ namespace Backjoon_Bronze_2_1009 {
                 int result = a;
 
                 for(int i=2; i <= b; ++i) {
+
                     result = (result * a) % 10;
                 }
 
@@ -32,7 +33,7 @@ namespace Backjoon_Bronze_2_1009 {
                 t--;
             }
 
-        }
-    }*/
-
+    }
+}
+    */
 }

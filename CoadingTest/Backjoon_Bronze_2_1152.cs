@@ -4,7 +4,6 @@ using System.Collections;
 using System.Text;
 using static System.Console;
 namespace Backjoon_Bronze_2_1152 {
-
     /*
     class MainApp {
 
@@ -26,4 +25,5 @@ namespace Backjoon_Bronze_2_1152 {
 
     }
     */
+
 }
