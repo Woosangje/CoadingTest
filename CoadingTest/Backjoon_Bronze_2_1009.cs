@@ -5,6 +5,7 @@ using System.Text;
 using static System.Console;
 namespace Backjoon_Bronze_2_1009 {
 
+
     /*
 class MainApp {
 
@@ -33,7 +34,6 @@ class MainApp {
                 t--;
             }
 
-    }
+    }*/
 }
-    */
-}
+    
